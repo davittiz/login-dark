@@ -12,7 +12,7 @@ body{
 .main{
     width: 100vw;
     height: 100vh;
-    background: rgb(44, 0, 44);
+    background: rgb(31, 0, 44);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +29,12 @@ body{
 
 .left h1{
     font-size: 3vw;
-    color: rgb(198, 142, 234);
+    text-align: center;
+    color: rgb(154, 70, 222);
 }
 
 .left-image{
-    width: 35vw;
+    width: 25vw;
 }
 
 .right{
@@ -52,13 +53,18 @@ body{
     flex-direction: column;
     padding: 30px 35px;
     border-radius: 20px;
-    background: rgb(58, 4, 58);
+    background: rgb(36, 0, 52);
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337);
 }
 
 .card h1{
-    color: rgb(198, 142, 234);
+    color:  rgb(154, 70, 222);
     font-weight: 800;
+    margin: 0;
+}
+
+.card p{
+    color: rgb(250, 248, 251);
     margin: 0;
 }
 
@@ -76,7 +82,7 @@ body{
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: rgba(112, 5, 116, 0.337);
+    background: rgba(75, 5, 116, 0.337);
     color: #fff;
     font-size: 12pt;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.337);
